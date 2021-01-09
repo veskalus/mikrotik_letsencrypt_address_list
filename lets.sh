@@ -3,8 +3,8 @@
 #Be sure to setup SSH key on mikrotik device to allow this to be automated
 
 #### Get LetsEncrypt IPs
-username="rob"
-router="192.168.41.1"
+username="xxx"
+router="x.x.x.x"
 hostlogin="${username}@${router}"
 tempfile="/var/tmp/lets.txt"
 le_dns="acme-v01.api.letsencrypt.org acme-staging.api.letsencrypt.orgi acme-v02.api.letsencrypt.org acme-staging-v02.api.letsencrypt.org"  ### LetsEncrypt DNS entries
